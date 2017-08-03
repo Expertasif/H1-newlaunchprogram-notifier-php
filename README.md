@@ -11,3 +11,7 @@ Since the script uses `mail()` function to send the message, it must be configur
 ![](https://lh5.googleusercontent.com/M-SeCYH3Umzl_otQvc5e4eEf-zy_qkUYiD5XJZ9BZScEocD9-kMmhOoVG8Vg2OFRvbl5Rxp4pXB4nvY=w1920-h974)
 
 Important: the query URL based on the H1 seacrh filters, and will notify only about new programs with `query=bounties`. It means that if you want to receive the notifications about program launch which not offer bounties - you should change the query URL in the script to the `query=type%3Ahackerone`, or modify it to support both types.
+
+
+# TODO:
+Support the BugCrowd program launch notificaction
