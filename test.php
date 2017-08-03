@@ -15,7 +15,7 @@ $name=substr($string,$pos+7,$pos2-$pos-7);
 if ($name!==$prev)
 {
 	mail($receiver, 'New Hackerone Program', "Go-go-go! New program - ".$name,'MIME-Version: 1.0'."\r\n".'Content-type: text/html; charset=utf-8'."\r\n"."From: ".$sender."\r\n"."Reply-To: ".$sender."\r\n"."X-Mailer: PHP/" . phpversion());
-	file_put_contents(dirname(__FILE__)."/".$name.".txt",$string,FILE_APPEND);
+	//file_put_contents(dirname(__FILE__)."/content.txt",$string,FILE_APPEND);//dump content of the program to the file
 	file_put_contents(dirname(__FILE__)."/program.txt",$name);
 }
 curl_close($curl);
