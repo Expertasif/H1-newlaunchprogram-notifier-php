@@ -1,3 +1,6 @@
+# Pending repository upload
+
+
 # Description
 This tiny script will let you know, when the new H1 public program just start.
 
