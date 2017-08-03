@@ -1,5 +1,6 @@
 # Description
 This tiny script will let you know, when the new H1 public program just start.
+Important: the query URL based on the H1 seacrh filters, and will notify only about new programs with `query=bounties`. It means that if you want to receive the notifications about program launch which not offer bounties - you should change the query URL in the script to the `query=type%3Ahackerone`, or modify it to support both types.
 
 # Installation
 Configure the $sender and $receiver mailbox variables in the script.
