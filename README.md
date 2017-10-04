@@ -1,5 +1,5 @@
 # Description
-This tiny script will let you know, when the new H1 public program is just starting.
+This tiny script will let you know, when the new H1 public program just launched.
 
 
 # Installation
